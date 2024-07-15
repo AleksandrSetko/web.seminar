@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой любимый кот</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .main img {
+            float: left;
+            margin-right: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Мой любимый кот</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">О коте</a></li>
+                    <li><a href="#hobbies">Хобби</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <section id="about" class="main">
+            <h2>О коте</h2>
+            <img src="/Домашнее задание /img/s2.jpg" alt="Мой кот" width="200">
+            <p>Мой кот, по имени Барсик, самый замечательный кот в мире. Он очень ласковый и любит играть.</p>
+        </section>
+        <section id="hobbies" class="main">
+            <h2>Хобби</h2>
+            <ul>
+                <li>Играть с мячиком</li>
+                <li>Ловить мышей</li>
+                <li>Спать на солнце</li>
+            </ul>
+        </section>
+        <section id="gallery" class="main">
+            <h2>Галерея</h2>
+            <p>Вот несколько фотографий моего кота:</p>
+            <img src="cat1.jpg" alt="Барсик играет" width="200">
+            <img src="cat2.jpg" alt="Барсик спит" width="200">
+        </section>
+    </div>
+    <footer>
+        <p>Автор: Ваше Имя</p>
+    </footer>
+</body>
+</html>
